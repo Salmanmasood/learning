@@ -5,7 +5,7 @@ margin:0px;
 
 header{
 	width:100%;
-	background-color:#3366ff;
+	background-color:#0099ff;
 	height:150px;
 	border-bottom:2px solid black;
 }
@@ -50,4 +50,35 @@ footer
 	background-color:red;
 	
 }
-
+.logo
+{
+width:500px;
+float:left;	
+margin: 0 auto;	
+}
+#lid{
+	margin-top:10px;
+width:400px;	
+height:120px;
+}
+.hddetails
+{
+width:500px;
+float:right;	
+margin: 0 auto;	
+		
+}
+#hdpara{
+	float:right;
+	color:white;
+	margin-right:10px;
+}
+#hdpara4
+{
+	float:right;
+	color:white;
+	margin-top:60px;
+	margin-left:50px;
+	margin-right:10px;
+	
+}
