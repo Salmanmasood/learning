@@ -1,5 +1,5 @@
 body{
-background-color:yellow;
+background-color:white;
 margin:0px;
 }
 
@@ -7,18 +7,19 @@ header{
 	width:100%;
 	background-color:#0099ff;
 	height:150px;
-	border-bottom:2px solid black;
+	border-bottom:2px solid #007acc;
 }
 
 nav{
-width:900px;
+width:100%;
 height:50px;
-margin: 0 auto;
-background:url(images/1.jpg);	
+
+background-color: #ff66b3;	
 margin-top:5px;
-	
+		
 }
 .cont{
+
 background-color:white;	
 width:900px
 height:500px;	
@@ -81,4 +82,25 @@ margin: 0 auto;
 	margin-left:50px;
 	margin-right:10px;
 	
+}
+.ul1{
+	
+ list-style-type:none;	
+
+}
+.ul1 li{
+list-style:none;
+display:inline;
+color:white;
+
+padding:20px;
+}
+.ul1 a:link{
+	
+color:white;
+font-size:20px;
+ font-family:Calibri;
+ text-decoration:none;	
+margin:5px;
+text-align:center
 }
