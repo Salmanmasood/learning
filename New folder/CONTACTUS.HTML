@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+HTML 5 AND CSS 3 WEBSITE
+</title>
+
+<link rel="stylesheet" href="style4.css">
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(25.002628, 67.055815),
+    zoom:15,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+</head>
+
+<body>
+
+
+<HEADER>
+<div class="logo"> <img id="lid" src="images/logo.png"/> </div>
+<div class="hddetails"> <h2 id="hdpara"> CALL: 0315-1191194 </h2> 
+<br\>
+<h4 id="hdpara4"> <b>Email:</b> theideassolution@yahoo.com </h4>
+
+ </div>
+
+
+</HEADER>
+
+<div class="cont">
+
+<nav>
+<ul class="ul1" >
+<li> <a href="index.html"> Home</a>  </li> 
+<li> <a href="faculty.html"> Our Faculty</a>  </li> 
+<li> <a href="Background.HTML"> Background</a>  </li> 
+<li> <a href="aboutus.HTML"> About Us</a>  </li> 
+<li> <a href="CONTACTUS.HTML"> Contact Us</a>  </li> 
+<li> <a href="#"> Gallries</a>  </li> 
+
+
+</ul>
+
+</nav>
+
+<aside>
+<img id="A" src="images/A.jpg"/>
+<img id="ad" src="images/ad.jpg"/>
+</aside>
+<section>
+<div id="googleMap" style="width:600px;height:400px;"></div>
+
+<div id="abtus">
+<h3><B> Address :</B> Karachi, Pakistan-75850  </h3>
+<h3><B> Phone :</B> 0315 1191194  </h3>
+<h3><B> Email :</B> Theideassolution@yahoo.com  </h3>
+<h3><B> Short description :</B> </h3>
+<p>
+This Page is basically designed to make the students aware about all the activities which are being done in the Educational Pearl Coaching Center
+</P>
+</div>
+
+</section>
+
+
+
+
+
+</div>
+<div class="clr">
+</div>
+
+<footer>
+<div id="footerdet" >
+<a href="about.html">About US</a>
+<a href="contact.html">Contact US</a>
+<a href="privacy.html">Privacy</a>
+
+</div>
+<P id="footpara" >All copy right reserved to M-N solution</P>
+</footer>
+
+
+
+
+</body>
+
+
+</html>

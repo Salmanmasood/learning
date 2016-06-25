@@ -26,7 +26,7 @@ document.getElementById("name").innerHTML="Babar Manzar.";
 document.getElementById("edu").innerHTML="BSSE Software Engineering."	;
 document.getElementById("exp").innerHTML="4 years of teaching Maths & Physics.";
 document.getElementById("ext").innerHTML="Physics & Maths and Computer";		
-document.getElementById("det").innerHTML="Sir Babar is a Software Engineer by professionally ,Along with computer skills He is excellent teacher of mathematics."	;	
+document.getElementById("det").innerHTML="Sir Babar is a Software Engineer by profession ,Along with computer skills He is excellent teacher of mathematics."	;	
 	
 }
 
