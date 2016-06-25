@@ -24,18 +24,12 @@ margin-top:5px;
 	border: 2px solid white;
 background-color:  #008ae6;	
 margin-top:5px;
-width:800px;
+width:900px;
 height:400px;	
 margin: 0 auto;	
 
 }
-#imgslider
-{border: 5px solid white;
-	width:600px;
-height:300px;	
-margin-left:100px;	
-margin-top:25px;
-}
+
 
 .cont{
 margin-top:10px;
@@ -150,4 +144,45 @@ margin-left:120px;
 	color:white;
 	text-align:center;
 	font-family:Berlin Sans FB;
+}
+#forward
+{
+float:right;	
+height:70px;
+width:70px;
+margin-top:160px;
+margin-right:30px;
+}
+#bi
+{
+height:70px;
+width:70px;	
+}
+#bi2
+{
+height:70px;
+width:70px;	
+	
+}
+#backward{
+	float:left;
+	
+	height:70px;
+width:70px;
+margin-left:30px;
+margin-top:160px;
+
+}
+#simages{
+	float:left;
+margin-top:25px;	
+background-color:red;
+height:300px;
+width:700px;	
+}
+#sliderimg
+{
+height:300px;
+width:700px;	
+	
 }
